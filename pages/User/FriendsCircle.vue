@@ -1,5 +1,7 @@
 <template>
 	<view>
+		<Mean></Mean>
+		<MyCardBtn></MyCardBtn>
 		<view class="content">
 			<view class="title">
 				<p>在重庆除了火锅还有这些东西</p>
@@ -29,7 +31,11 @@
 </script>
 
 <style>
+	page{
+		background-color: #ffffff;
+		}
 .content{
+	margin-top: 0.6rem;
 	background-color: #FFFFFF;
 	padding: 1rem 0.8rem;
 	border-bottom: 0.001rem solid #D8D8D8;

@@ -1,5 +1,7 @@
 <template>
 	<view>
+		<Mean></Mean>
+		<MyCardBtn></MyCardBtn>
 		<view class="top">
 			<p>个人资料</p>
 			<p>头像</p> 

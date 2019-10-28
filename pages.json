@@ -1,12 +1,12 @@
 {
 	"pages": [
-		{"path" : "component/privateZoo"},
+		{"path" : "pages/index/index"},
+		{"path" : "pages/User/privateZoo"},
 		{"path" : "pages/User/UserInfo"},
 		{"path" : "pages/User/EditUser"},
-		{"path" : "component/FriendsCircle"},
+		{"path" : "pages/User/FriendsCircle"},
 		{"path" : "pages/User/changePassword"},
 		{"path" : "pages/User/newShare"},
-		{"path" : "pages/index/index"},
 		{"path" : "pages/person/personAddress"},
 		{"path" : "pages/person/person"},
 		{"path" : "pages/article/article"},
@@ -24,11 +24,6 @@
 		{"path" : "pages/login/find","style" : {"navigationBarTitleText": "找回密码"}},
 		{"path" : "pages/login/register","style" : {"navigationBarTitleText": "用户注册"}},
 		{"path" : "pages/login/login", "style" : {"navigationBarTitleText": "用户登陆"}}
-        
-		
-		
-        
-        
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

@@ -6,25 +6,12 @@
 			<p class='hr'>会员: {{VipLevel}}</p>
 			<p @click="goprivate()">认证: {{Authentication}}</p>
 		</view>
-		<edit></edit>
-		<view v-for="i in 3">
-			<privateZoo></privateZoo>
-		</view>
-		<view v-for="i in 3">
-			<FriendsCircle></FriendsCircle>
-		</view>
 	</view>
 </template>
 
 <script>
-	import edit from './EditUser.vue'
-	import privateZoo from '@/component/privateZoo.vue'
-	import FriendsCircle from '@/component/FriendsCircle.vue'
 	export default {
 		components: {
-			edit,
-			FriendsCircle,
-			privateZoo
 		},
 		data() {
 			return {

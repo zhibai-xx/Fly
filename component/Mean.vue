@@ -7,7 +7,7 @@
 					<view class="personInfo">
 						<!-- 左边 -->
 						<view class="avatar">
-							<image src="../../static/logo.png" style=" width: 4.2rem; height: 4.2rem;" mode=""></image>
+							<image src="/static/logo.png" style=" width: 4.2rem; height: 4.2rem;" mode=""></image>
 						</view>
 						<view class="user">
 							<p>{{UserName}}</p>
@@ -16,17 +16,17 @@
 						</view>
 						<view class="autograph">
 							<!-- 个人签名 -->
-							<laber>苍蝇签名:{{autographValue}}</laber>
+							<label>苍蝇签名:{{autographValue}}</label>
 						</view>
 					</view>
 					
 					<view class="personPick">
 						<!-- 右边 -->
 						<view class="pick">
-							<laber>给他评论打分</laber>
+							<label>给他评论打分</label>
 						</view>
 						<view class="grade">
-							<laber class="gradeNumber">{{grade}}分</laber>
+							<label class="gradeNumber">{{grade}}分</label>
 							<view class="grade_product">
 								评分详情
 							</view>
@@ -92,7 +92,7 @@
 		margin-top: 0.1rem;
 	}
 
-	.pick laber {
+	.pick label {
 		color: #FFFFFF;
 		font-size: 0.6rem;
 		margin-right: 1rem;
@@ -103,7 +103,7 @@
 		vertical-align: middle;
 	}
 
-	.grade laber {
+	.grade label {
 		display: inline-block;
 		color: #FF6000;
 

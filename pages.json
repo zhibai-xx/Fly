@@ -1,0 +1,70 @@
+{
+	"pages": [
+		{"path" : "pages/index/index"},
+		{"path" : "pages/User/changePassword"},
+		{"path" : "pages/person/personAddress"},
+		{"path" : "pages/User/newShare"},
+		{"path" : "pages/person/person"},
+		{"path" : "pages/article/article"},
+		{"path" : "pages/User/UserInfo"},
+		{"path" : "pages/User/EditUser"},
+		{"path" : "pages/list/list"},
+		{"path" : "pages/food/food"},
+		{"path" : "pages/tour/tour"},
+        {"path" : "pages/party/party"},
+		{"path" : "pages/restant/restant"},
+		{"path" : "component/article"},
+		{"path" : "component/swiper2"},
+		{"path" : "component/mycardBtn"},
+		{"path" : "component/mycardBtn2"},
+		{"path" : "component/Mean"},
+		{"path" : "component/NavHeader"},
+		{"path" : "pages/login/find","style" : {"navigationBarTitleText": "找回密码"}},
+		{"path" : "pages/login/register","style" : {"navigationBarTitleText": "用户注册"}},
+		{"path" : "pages/login/login", "style" : {"navigationBarTitleText": "用户登陆"}}
+        
+		
+		
+        
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Fly",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "rgb(255,173,0)",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	      "pagePath": "pages/index/index",
+	      "iconPath": "static/tabbarLogo/uHome.png",
+	      "selectedIconPath": "static/tabbarLogo/Home.png",
+	      "text": "主页"
+	    }, {
+	      "pagePath": "pages/food/food",
+	      "iconPath": "static/tabbarLogo/uFood.png",
+	      "selectedIconPath": "static/tabbarLogo/Food.png",
+	      "text": "美食"
+	    }, {
+	      "pagePath": "pages/tour/tour",
+	      "iconPath": "static/tabbarLogo/uTour.png",
+	      "selectedIconPath": "static/tabbarLogo/Tour.png",
+	      "text": "旅行"
+	    }, {
+	      "pagePath": "pages/party/party",
+	      "iconPath": "static/tabbarLogo/uParty.png",
+	      "selectedIconPath": "static/tabbarLogo/Party.png",
+	      "text": "派对"
+	    }, {
+	      "pagePath": "pages/restant/restant",
+	      "iconPath": "static/tabbarLogo/uRest.png",
+	      "selectedIconPath": "static/tabbarLogo/Rest.png",
+	      "text": "馆子"
+	    }]
+	  }
+	
+}
